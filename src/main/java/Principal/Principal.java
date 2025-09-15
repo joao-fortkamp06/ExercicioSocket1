@@ -25,7 +25,6 @@ public class Principal {
             PrintWriter out = new PrintWriter(sock.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(sock.getInputStream()));
 
-            // requisição GET
             out.println("GET /search?q=" + query + " HTTP/1.1");
             out.println("Host: www.google.com");
             out.println("Connection: close");
