@@ -1,11 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Principal;
 
-import java.net.*;
-import java.io.*;
+import java.net.Socket;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWrinter;
 import javax.swing.JOptionPane;
 
 public class Principal {
@@ -27,3 +27,4 @@ public class Principal {
         }
     }
 }
+
